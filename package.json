@@ -1,0 +1,26 @@
+{
+  "name": "x-boilerplate",
+  "version": "0.0.0",
+  "description": "Test repository for debugging and observing source code functionality",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readthesource/x-boilerplate.git"
+  },
+  "keywords": [
+    "source",
+    "code"
+  ],
+  "author": "Erik Isaksen <erik_isaksen@hotmail.com>, Christian Smith <smith@anvil.io>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/readthesource/x-boilerplate/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
