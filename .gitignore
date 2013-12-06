@@ -2,3 +2,5 @@ node_modules
 the_source
 generated-javascript.js
 generated-styles.css
+*.DS_Store
+
