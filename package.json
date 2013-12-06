@@ -19,8 +19,9 @@
   "bugs": {
     "url": "https://github.com/readthesource/x-boilerplate/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-connect": "~0.5.0"
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0"
   }
 }
