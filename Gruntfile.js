@@ -2,13 +2,19 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
     connect: {
-      server: {
-        options: {
-          port: 9001,
+      server : {
+        options : {
+          port : 9001,
           keepalive: true,
-          base: "app"
+          base: [ ".", "app" ],
+          livereload: true,
+          open: true
+        },
+        middleware: function(connect, options) {
+          return [ connect.static(options.base) ];
         }
       }
+
     },
     concat: {
       dest: {
